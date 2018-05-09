@@ -1,4 +1,6 @@
 def prime?(n)
+  n == 2 ? true : nil
+    
   range = (2...n)
   for num in range do
     if (n % num == 0)
